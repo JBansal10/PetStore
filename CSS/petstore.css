@@ -15,6 +15,10 @@ h1{
     color: black;
     text-shadow: 2px 2px 5px beige;
 }
+h2{
+    color: black;
+    text-shadow: 2px 2px 5px beige;
+}
 #left{
     text-align: left;
 }
