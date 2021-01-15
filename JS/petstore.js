@@ -117,7 +117,9 @@ const createPet = () => {
     fetch(createURL, {
         method: 'POST',
         body: JSON.stringify({
-            name: "Jimmy"
+            id: 9222968140496892000,
+            name: "doggie"
+            
         }),
         headers: {
             'Content-Type': "application/json"

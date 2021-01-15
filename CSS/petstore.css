@@ -1,0 +1,20 @@
+body{
+    background-image: url(../Resources/POGPUG.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#petstore{
+    color: aliceblue;
+    text-align: left;
+}
+h1{
+    color: black;
+    text-shadow: 2px 2px 5px beige;
+}
+#left{
+    text-align: left;
+}

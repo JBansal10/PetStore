@@ -9,30 +9,38 @@
         <link href="../CSS/petstore.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>THIS IS THE PETSTORE STUFF</h1>
+        <h1 class="text-center">THIS IS THE PETSTORE STUFF</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md">
-                    <button class= "btn btn-info" id="getPetsAvailable">Get Pets by Available</button>
-                    <button class= "btn btn-info" id="getPetsPending">Get Pets by Pending</button>
-                    <button class= "btn btn-info" id="getPetsSold">Get Pets by Sold</button>
+                    <button class= "btn btn-dark" id="getPetsAvailable">Get Pets by Available</button>
+                    <button class= "btn btn-dark" id="getPetsPending">Get Pets by Pending</button>
+                    <button class= "btn btn-dark" id="getPetsSold">Get Pets by Sold</button>
                 </div>
             </div>
         </br>
             <div class = "row">
                 <div class = "col-md">
-                    <button class="btn btn-outline-danger btn-sm" id="deleteHistory" onclick="clearHistory();">Clear History</button>
+                    <button class="btn btn-danger btn-sm" id="deleteHistory" onclick="clearHistory();">Clear History</button>
                 </div>
             </div>
         </div>
-        <hr/>
-        <button class= "btn btn-info" id="createPet">Create Pet</button>
-        <hr/>
-        <button class= "btn btn-info" id="updatePet">Update Pet</button>
-        <hr/>
-        <button class= "btn btn-info" id="deletePet">Delete Pet</button>
-        <div id="petstore"></div>
-        
+        <p></p>
+        <div class = "container" id=left>
+            <button class= "btn btn-dark" id="createPet">Create Pet</button>
+            <p>
+
+            </p>
+            <button class= "btn btn-dark" id="updatePet">Update Pet</button>
+            <p>
+
+            </p>
+            <button class= "btn btn-dark" id="deletePet">Delete Pet</button>
+        </div>
+    </br>
+        <div class = "container">
+            <div id="petstore"></div>
+        </div>
     
 
         <script src="../JS/petstore.js"></script>
